@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto 20px auto;
+}
+
+form label, form input, form select, form button {
+    margin: 5px 0;
+}
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table th {
+    background-color: #f4f4f4;
+}
+
+.category-A {
+    color: black;
+}
+
+.category-B {
+    color: green;
+}
+
+.category-C {
+    color: blue;
+}
